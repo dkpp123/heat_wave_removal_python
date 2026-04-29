@@ -4,7 +4,7 @@ HeatWave Ultimate Studio is a GPU-accelerated video mastering and restoration to
 
 Designed for raw speed, it uses pinned-memory buffers, multi-threading, and zero-copy transfers to push your NVIDIA GPU to its limits, offering both a quick 30-second preview mode and full-length HEVC (NVENC) high-speed exporting.
 
-![UI Preview](https://via.placeholder.com/800x450.png?text=HeatWave+Mastering+Studio+UI) *(You can replace this link with a real screenshot of your app)*
+
 
 ---
 
@@ -54,6 +54,8 @@ Next, install the rest of the libraries required for the UI and video processing
 code
 Bash
 pip install ffmpeg-python numpy customtkinter psutil Pillow
+
+
 🚀 Step 3: Running the Application
 Once everything is installed, you are ready to use the app!
 Download the videofix.py script from this repository.
@@ -64,11 +66,15 @@ code
 Bash
 python videofix.py
 The graphical interface will pop up.
+
+
 How to Use:
 Click SELECT VIDEO and choose an .mp4, .mkv, etc.
 Adjust the Mirage/Haze, Color, and Detail sliders to your liking.
 Click GENERATE 30s PREVIEW to see a fast, downscaled split-screen preview of your changes in real-time.
 Click START EXPORT to process the entire video at its original resolution. The final video will be saved in the same folder as the script, prefixed with MASTER_.
+
+
 🛠️ Troubleshooting
 Error: FileNotFoundError: [WinError 2] The system cannot find the file specified
 Cause: Python cannot find FFmpeg.
