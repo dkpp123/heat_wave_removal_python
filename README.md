@@ -1,3 +1,5 @@
+AI Generated Description and Vibe Coded Application - Not responsible for anything at all ever. 
+
 # HeatWave Video Mastering Studio
 
 HeatWave Ultimate Studio is a GPU-accelerated video mastering and restoration tool built in Python. It utilizes PyTorch and FFmpeg to perform real-time mirage/haze suppression, advanced color grading, detail enhancement, and sharp rendering. 
